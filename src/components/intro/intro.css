@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+        animation: move 10s ease-in-out infinite alternate;
    
     
   }
