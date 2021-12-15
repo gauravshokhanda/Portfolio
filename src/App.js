@@ -7,7 +7,7 @@ import Intro from './components/intro/Intro';
 import ProductList from './components/ProductList/ProductList';
 import Toggle from './components/toggle/Toggle';
 import { ThemeContext } from "./context";
-import { BrowserRouter ,Route , Switch} from "react-router-dom";
+import { BrowserRouter ,Route , Switch , Redirect} from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
@@ -27,6 +27,9 @@ function App() {
      <BrowserRouter>
      <Navbar/>
      <Switch>
+     <Route exact path="/">
+     <Redirect to="/home" />
+      </Route>
      <Route exact path="/home">
             <Intro/>
             <About/>
