@@ -20,7 +20,7 @@ const About = () => {
           Hello  I am Gaurav Shokhanda !
         </p>
         <p className="a-desc">
-         Hello I am Self Taught Full-Stack Developer. and Graduate From CCS University .My Skills are HTML CSS JAVASCRIPT REACT MOGODB EXPRESS NODEJS . Make many Projects in React To Understand the Fundamentals.
+         Hello I am Self Taught Full-Stack Developer and Graduate from CCS University .My Skills are HTML, CSS ,JAVASCRIPT ,REACT, MONGODB, EXPRESS, NODEJS . Make many Projects in React To Understand the Fundamentals.
         <br></br>
         <br>
         </br>
